@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-expand-lg .container ul li{
+    margin-left: 40px;
+}
+.navbar-expand-lg{
+    background-color: #a00c0c!important;
+}
+.navbar-expand-lg .container .navbar-collapse .btn{
+    color: white!important;
+    transition: 1s;
+}
+.navbar-expand-lg .container .navbar-collapse .btn:hover{
+    background-color: white!important;
+    color: #a00c0c!important;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 25px;
+}
+.navbar .container .btn a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .container .btn:hover a{
+    color: #a00c0c;
+}
+
+#end .container-fluid .row .col-lg-3 ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+#end .container-fluid .row .col-lg-3 ul li {
+    margin-top: 10px;
+}
+#end .container-fluid .row .col-lg-3 ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#end .container-fluid .row .col-lg-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+#end .container-fluid .row .col-lg-3 h2{
+    color: aliceblue;
+    margin-top: 14px;
+}
+#end .container-fluid .row .col-lg-3 span{
+    margin-left: 10px;
+}
+#end .container-fluid .row .col-lg-3 i{
+    margin-top: 20px;
+}
+#end{
+    width: 100%;
+    background-color: #a00c0c;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+#end .div-icons{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#end .div-icons i{
+color: aliceblue;
+}

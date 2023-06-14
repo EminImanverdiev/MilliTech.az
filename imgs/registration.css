@@ -1,0 +1,74 @@
+#informations{
+    background-image: url(texture.png);
+    padding: 40px 0px;
+}
+#informations .col-lg-6 h1
+{
+    color: #a00c0c;
+}
+#informations .col-lg-6 p{
+    color: #102B55;
+}
+#informations .col-lg-6 img{
+    width: 70%;
+    height: 250px;
+}
+
+#informations .col-lg-5 .div_name_surname input{
+    width: 45%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+#informations .col-lg-5 .div_name_surname input::placeholder{
+    margin: 10px;
+}
+#informations .col-lg-5 .contact_select{
+    width: 100%;
+    margin-top: 20px;
+}
+#informations .col-lg-5 .contact_select select{
+    width: 20%;
+    height: 40px;
+}
+#informations .col-lg-5 .contact_select input{
+    width: 69%;
+    height: 40px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+#informations .col-lg-5 select{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+#informations .col-lg-5 input,#informations .col-lg-5 button{
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 2px !important;
+}
+#informations .col-lg-5 button{
+    width: 90%;
+    height: 40px;
+    background-color: #a00c0c;
+    color: white;
+    transition: 0.5s;
+}
+#informations .col-lg-5 button:hover{
+    background-color: #790808;
+}
+#informations .col-lg-5 input::placeholder{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
